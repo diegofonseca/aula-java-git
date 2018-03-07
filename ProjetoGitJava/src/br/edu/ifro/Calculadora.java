@@ -21,6 +21,9 @@ public class Calculadora {
     }
     public static void main(String[] args) {
         Calculadora c = new Calculadora();
-        
+        System.out.println(c.soma(10, 20));
+        System.out.println(c.subtracao(10, 20));
+        System.out.println(c.divisao(10, 20));
+        System.out.println(c.multiplicacao(10, 20));
     }
 }
