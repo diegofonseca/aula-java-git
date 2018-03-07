@@ -19,6 +19,7 @@ public class Aula {
         double num2 = 20;
         Calculadora calculadora = new Calculadora();
         System.out.println( calculadora.soma(num1, num2) );
+        
         // Todas as operações       
     }
     
