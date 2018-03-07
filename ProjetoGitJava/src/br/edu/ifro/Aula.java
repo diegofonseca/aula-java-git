@@ -15,7 +15,11 @@ public class Aula {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        double num1 = 10;
+        double num2 = 20;
+        Calculadora calculadora = new Calculadora();
+        System.out.println( calculadora.soma(num1, num2) );
+        // Todas as operações       
     }
     
 }
