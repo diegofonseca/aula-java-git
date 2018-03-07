@@ -9,13 +9,6 @@ package br.edu.ifro;
  *
  * @author Victor Hugo
  */
-public class Aula {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("Testando o Git");
-    }
+public class Calculadora {
     
 }
