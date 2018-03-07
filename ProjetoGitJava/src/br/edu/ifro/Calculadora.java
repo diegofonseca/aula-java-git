@@ -26,4 +26,13 @@ public class Calculadora {
     public double multiplicação(double x, double y) {
         return x * y;
     }
+
+    public static void main(String[] args) {
+     double x =10;
+     double y=20;
+     Calculadora Calculadora = new Calculadora();
+     System.out.println(Calculadora.soma(x,y));
+     
+    }
+    
 }
