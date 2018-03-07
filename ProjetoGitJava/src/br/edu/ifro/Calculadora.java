@@ -23,4 +23,12 @@ public class Calculadora {
     public double subtracao(double num1, double num2){
         return num1-num2;
     }
+    public static void main(String[] args){
+        double num1=10;
+        double num2=20;
+        Calculadora calculadora= new Calculadora();
+        System.out.println(calculadora.soma(num1, num2));
+        System.out.println("FINISHED");
+        
+    }
 }
