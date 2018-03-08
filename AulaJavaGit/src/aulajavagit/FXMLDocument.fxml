@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="557.0" prefWidth="792.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="aulajavagit.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="467.0" layoutY="430.0" onAction="#handleButtonAction" prefHeight="101.0" prefWidth="300.0" text="touch" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="24.0" layoutY="430.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="300.0" text="somebody" />
+      <TitledPane animated="false" layoutX="32.0" layoutY="14.0" prefHeight="206.0" prefWidth="735.0" text="tela2">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="710.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="14.0" layoutY="223.0" prefHeight="206.0" prefWidth="768.0" text="untitled">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+    </children>
+</AnchorPane>
