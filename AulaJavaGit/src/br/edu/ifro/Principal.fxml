@@ -9,11 +9,12 @@
 
 <AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
     <children>
-        <Button fx:id="button" graphicTextGap="110.0" layoutX="126" layoutY="90" onAction="#handleButtonAction" text="Clica ai vei" textFill="#b90e0e" />
+        <Button fx:id="button" graphicTextGap="110.0" layoutX="115.0" layoutY="108.0" onAction="#handleButtonAction" text="Clica ai vei" textFill="#b90e0e" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <Label layoutX="27.0" layoutY="14.0" prefHeight="42.0" prefWidth="193.0" text="hello word" textFill="#ff00e5">
          <font>
             <Font size="40.0" />
          </font></Label>
+      <Button fx:id="button1" graphicTextGap="110.0" layoutX="125.0" layoutY="118.0" onAction="#handleButtonAction" text="Clica ai vei" textFill="#b90e0e" />
     </children>
 </AnchorPane>
