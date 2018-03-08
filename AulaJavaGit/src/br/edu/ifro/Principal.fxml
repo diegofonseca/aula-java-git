@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.web.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="379.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
     <children>
-        <Button fx:id="button" layoutX="232.0" layoutY="152.0" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <Label layoutX="80.0" layoutY="57.0" prefHeight="73.0" prefWidth="145.0" text="Hello World" />
+        <Button fx:id="button" layoutX="523.0" layoutY="81.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="61.0" layoutY="73.0" minHeight="16" minWidth="69" />
+      <Label layoutX="195.0" layoutY="45.0" prefHeight="73.0" prefWidth="145.0" text="Hello World" />
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutY="179.0" prefHeight="200.0" prefWidth="618.0" />
     </children>
 </AnchorPane>
