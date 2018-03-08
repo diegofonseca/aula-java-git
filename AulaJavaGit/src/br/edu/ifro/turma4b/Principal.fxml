@@ -7,15 +7,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="358.0" prefWidth="553.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.turma4b.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="358.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.turma4b.PrincipalController">
     <children>
         <Button fx:id="button" layoutX="36.0" layoutY="301.0" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="419.0" layoutY="292.0" minHeight="16" minWidth="69" />
+        <Label fx:id="label" layoutX="454.0" layoutY="293.0" minHeight="16" minWidth="69" />
       <Label layoutX="68.0" layoutY="77.0" text="Hello World!" textOverrun="WORD_ELLIPSIS">
          <font>
             <Font name="Calibri Bold Italic" size="53.0" />
          </font>
       </Label>
+      <Label fx:id="label2" layoutX="435.0" layoutY="19.0" minHeight="16" minWidth="69" prefHeight="252.0" prefWidth="106.0" />
       <MenuBar layoutX="7.0" layoutY="2.0" prefHeight="31.0" prefWidth="420.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -36,6 +37,6 @@
         </menus>
       </MenuBar>
       <Separator layoutX="424.0" orientation="VERTICAL" prefHeight="358.0" prefWidth="1.0" />
-      <TextArea layoutX="100.0" layoutY="151.0" prefHeight="118.0" prefWidth="234.0" />
+      <TextArea fx:id="txtarea" layoutX="100.0" layoutY="151.0" prefHeight="118.0" prefWidth="234.0" />
     </children>
 </AnchorPane>

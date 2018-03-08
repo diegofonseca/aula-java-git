@@ -19,7 +19,7 @@ import javafx.scene.control.Label;
 public class PrincipalController implements Initializable {
     
     @FXML
-    private Label label;
+    private Label label, label2;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
