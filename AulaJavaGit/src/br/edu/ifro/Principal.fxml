@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="253.0" prefWidth="390.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
+    <children>
+        <Button fx:id="button" layoutX="152.0" layoutY="161.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="76.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="82.0" prefWidth="260.0" text="Hello World!">
+         <font>
+            <Font size="43.0" />
+         </font></Label>
+      <TitledPane animated="false" layoutY="-2.0" prefHeight="25.0" prefWidth="396.0" text="untitled">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <ProgressIndicator layoutX="158.0" layoutY="107.0" progress="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ProgressIndicator>
+      <Slider layoutX="379.0" layoutY="21.0" orientation="VERTICAL" prefHeight="232.0" prefWidth="19.0" />
+    </children>
+</AnchorPane>
