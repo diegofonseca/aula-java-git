@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.FXMLDocumentController">
     <children>
-        <Button fx:id="button" layoutX="235.0" layoutY="161.0" onAction="#handleButtonAction" text="Click Me!" />
+      <ImageView fitHeight="205.0" fitWidth="322.0">
+         <image>
+            <Image url="@../../../../../../../../Desktop/abc.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="90.0" layoutY="137.0" onAction="#handleButtonAction" text="Aperta aqui !" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <Label layoutX="39.0" layoutY="35.0" text="Hello World" />
+      <Label layoutX="39.0" layoutY="35.0" text="Hello World" textFill="RED">
+         <font>
+            <Font name="Arial Black" size="43.0" />
+         </font></Label>
     </children>
 </AnchorPane>
