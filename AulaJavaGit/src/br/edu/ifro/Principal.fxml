@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,12 +8,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
     <children>
-        <Button fx:id="button" layoutX="126" layoutY="90" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="97.0" layoutY="44.0" minHeight="16" minWidth="69" text="Hello World">
+        <Button fx:id="button" layoutX="120.0" layoutY="82.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="104.0" layoutY="36.0" minHeight="16" minWidth="69" text="Hello World">
          <font>
             <Font size="20.0" />
          </font></Label>
+      <ProgressIndicator layoutX="126.0" layoutY="142.0" progress="0.0" />
+      <Separator layoutY="124.0" prefHeight="1.0" prefWidth="320.0" />
+      <Arc fill="DODGERBLUE" layoutX="66.0" layoutY="51.0" length="270.0" radiusX="20.0" radiusY="15.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
     </children>
 </AnchorPane>
