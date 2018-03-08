@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,12 +8,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
     <children>
       <Label layoutX="52.0" layoutY="49.0" text="Hello World">
          <font>
             <Font size="41.0" />
          </font>
       </Label>
+      <ImageView fitHeight="471.0" fitWidth="716.0">
+         <image>
+            <Image url="@../../../../../../../../Desktop/ROBntMb%5B1%5D.jpg" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
