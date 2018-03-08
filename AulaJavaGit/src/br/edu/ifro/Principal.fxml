@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.PrincipalController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="248.0" layoutY="161.0" onAction="#handleButtonAction" text="Enviar!" />
+        <Label fx:id="label" layoutX="80.0" layoutY="144.0" minHeight="16" minWidth="69" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="29.0" text="OLA">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <MenuBar layoutX="1.0" prefHeight="25.0" prefWidth="320.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="27.0" layoutY="75.0" text="Nome: " />
+      <TextField layoutX="75.0" layoutY="71.0" text="Michele" />
+      <ComboBox layoutX="74.0" layoutY="100.0" prefWidth="150.0" promptText="Ji- Paraná" />
+      <Label layoutX="27.0" layoutY="104.0" text="Cidade:" />
+      <Arc fill="DODGERBLUE" layoutX="63.0" layoutY="46.0" length="270.0" radiusX="23.0" radiusY="21.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
     </children>
 </AnchorPane>
